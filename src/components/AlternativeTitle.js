@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../utils';
 
 const AlterNativeTitle = ({ title, className }) => {
     return (
@@ -19,7 +20,7 @@ const Wrapper = styled(AlterNativeTitle)`
     div {
         width: 50px;
         height: 50px;
-        background-color: red;
+        background-color: ${colors.secondary};
     }
 `;
 
