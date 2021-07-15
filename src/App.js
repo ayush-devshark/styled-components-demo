@@ -1,5 +1,5 @@
 import BasicTitle from './components/BasicTitle';
-import { DefaultButton } from './components/Buttons';
+import { DefaultButton, WhiteButton } from './components/Buttons';
 
 function App() {
     return (
@@ -7,6 +7,7 @@ function App() {
             <BasicTitle special>styled components</BasicTitle>
             <BasicTitle>styled components</BasicTitle>
             <DefaultButton>Click Me</DefaultButton>
+            <WhiteButton>Click Me</WhiteButton>
         </div>
     );
 }
