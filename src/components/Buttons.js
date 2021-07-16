@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const DefaultButton = styled.button`
     background-color: #6e2d45;
@@ -7,15 +7,25 @@ export const DefaultButton = styled.button`
     border-radius: 0.25rem;
     cursor: pointer;
     text-transform: capitalize;
-    padding: 1rem;
-    display: block;
     width: 150px;
     margin-right: 1rem;
     display: inline-block;
 
+    ${({ large }) =>
+        large
+            ? css`
+                  padding: 1rem;
+                  font-size: 1.5rem;
+                  font-weight: 700;
+              `
+            : css`
+                  padding: 0.5rem;
+                  font-size: 1rem;
+                  font-weight: 400;
+              `}
+
     text-decoration: none;
     text-align: center;
-    font-size: 1rem;
 `;
 
 export const WhiteButton = styled(DefaultButton)`
