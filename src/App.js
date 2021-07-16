@@ -1,10 +1,10 @@
-import Form from './components/Form';
-import { WhiteButton } from './components/Buttons';
+import List from './components/List';
 
 function App() {
     return (
         <div style={{ padding: '2rem' }}>
-            <Form />
+            <h2>Simple List Example </h2>
+            <List />
         </div>
     );
 }
