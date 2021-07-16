@@ -1,5 +1,6 @@
 :root {
     --primary: rgb(255, 174, 231);
+    --mainBorder: 5px solid red;
 }
 
 body {

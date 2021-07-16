@@ -5,6 +5,7 @@ const ComplexTitle = ({ title }) => {
         <Wrapper className='bg-grey'>
             <h1>{title}</h1>
             <div className='underline'></div>
+            <div className='box'></div>
         </Wrapper>
     );
 };
@@ -20,6 +21,11 @@ const Wrapper = styled.div`
         width: 50px;
         height: 50px;
         background-color: var(--primary);
+    }
+
+    .box {
+        height: 10px;
+        border: var(--mainBorder);
     }
 `;
 
