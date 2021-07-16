@@ -1,6 +1,7 @@
 :root {
     --primary: rgb(255, 174, 231);
     --mainBorder: 5px solid red;
+    --white: #fff;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #f2f4f8;
 }
 
 .bg-grey {
