@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-import Loading from './components/Loading';
+import styled from 'styled-components/macro';
 import { DefaultButton } from './components/Buttons';
 
 function App() {
@@ -7,12 +6,22 @@ function App() {
         <div style={{ padding: '2rem' }}>
             <DefaultButton>Click Me!</DefaultButton>
             <DefaultButton
+                css={`
+                    color: red;
+                `}
                 as='a'
                 href='https://www.a11yproject.com/#explore-resources'
             >
                 Click Me!
             </DefaultButton>
             <DefaultButton>Click Me!</DefaultButton>
+            <div
+                css={`
+                    color: green;
+                `}
+            >
+                <h2>Hello World</h2>
+            </div>
         </div>
     );
 }
