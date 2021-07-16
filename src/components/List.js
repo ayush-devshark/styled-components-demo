@@ -5,14 +5,19 @@ const fruits = ['🍎', '🍊', '🍑', '🥝'];
 
 const Fruit = styled.li`
     list-style-type: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 40%;
+    margin: 0 auto;
     ${({ odd }) =>
         odd
             ? css`
-                  background: cyan;
+                  background: yellow;
               `
             : css`
                   background: lime;
-              `}
+              `};
 `;
 
 const List = () => {

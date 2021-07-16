@@ -1,10 +1,9 @@
-import List from './components/List';
+import Products from './components/Products';
 
 function App() {
     return (
         <div style={{ padding: '2rem' }}>
-            <h2>Simple List Example </h2>
-            <List />
+            <Products />
         </div>
     );
 }
