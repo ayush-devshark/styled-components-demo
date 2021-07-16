@@ -1,9 +1,10 @@
 import Card from './components/Card';
+import GlobalStyle from './global-styles';
 
 function App() {
     return (
         <div style={{ padding: '2rem' }}>
-            <h2>Card will set here</h2>
+            <GlobalStyle />
             <Card></Card>
         </div>
     );
