@@ -1,11 +1,10 @@
-import styled from 'styled-components/macro';
+import Form from './components/Form';
 import { WhiteButton } from './components/Buttons';
 
 function App() {
     return (
         <div style={{ padding: '2rem' }}>
-            <WhiteButton>Click me</WhiteButton>
-            <WhiteButton large>Click me</WhiteButton>
+            <Form />
         </div>
     );
 }
